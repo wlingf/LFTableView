@@ -13,6 +13,7 @@
 		CCCB1AF921E438E8002CED8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCB1AF821E438E8002CED8D /* Assets.xcassets */; };
 		CCCB1AFC21E438E8002CED8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCB1AFA21E438E8002CED8D /* LaunchScreen.storyboard */; };
 		CCCB1AFF21E438E8002CED8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCB1AFE21E438E8002CED8D /* main.m */; };
+		CCCB1B0821E44593002CED8D /* LFTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCB1B0721E44593002CED8D /* LFTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CCCB1AFB21E438E8002CED8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCCB1AFD21E438E8002CED8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCCB1AFE21E438E8002CED8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCCB1B0621E44593002CED8D /* LFTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFTableView.h; sourceTree = "<group>"; };
+		CCCB1B0721E44593002CED8D /* LFTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		CCCB1AEE21E438E7002CED8D /* LFTableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CCCB1B0521E44573002CED8D /* LFTableView */,
 				CCCB1AEF21E438E7002CED8D /* AppDelegate.h */,
 				CCCB1AF021E438E7002CED8D /* AppDelegate.m */,
 				CCCB1AF221E438E7002CED8D /* ViewController.h */,
@@ -69,6 +73,15 @@
 				CCCB1AFE21E438E8002CED8D /* main.m */,
 			);
 			path = LFTableViewDemo;
+			sourceTree = "<group>";
+		};
+		CCCB1B0521E44573002CED8D /* LFTableView */ = {
+			isa = PBXGroup;
+			children = (
+				CCCB1B0621E44593002CED8D /* LFTableView.h */,
+				CCCB1B0721E44593002CED8D /* LFTableView.m */,
+			);
+			path = LFTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCCB1AF421E438E7002CED8D /* ViewController.m in Sources */,
+				CCCB1B0821E44593002CED8D /* LFTableView.m in Sources */,
 				CCCB1AFF21E438E8002CED8D /* main.m in Sources */,
 				CCCB1AF121E438E7002CED8D /* AppDelegate.m in Sources */,
 			);
@@ -286,6 +300,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULZ6F2CH9B;
 				INFOPLIST_FILE = LFTableViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULZ6F2CH9B;
 				INFOPLIST_FILE = LFTableViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
